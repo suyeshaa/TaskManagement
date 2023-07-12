@@ -11,6 +11,7 @@ const AddTodo = () => {
     <div className='text-black'>
       <input placeholder='new todo' onChange={(e)=>(todoStore.todo.text=e.target.value)} value={todoStore.todo.text}/>
       <button className='text-white' onClick={clickHandler}>add todo</button>
+      
     </div>
   )
 }
